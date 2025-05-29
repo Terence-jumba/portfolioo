@@ -234,7 +234,7 @@ function Experience() {
                         </button>
 
                         <div className="skills">
-                            <strong>🧪 Test-Driven Development, Kotlin</strong> and +9 skills
+                            <strong>🧪 Test-Driven Development, Kotlin</strong> and +8 skills
                         </div>
                     </div>
                 ))}
