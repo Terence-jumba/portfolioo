@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.left, .right {
+  padding: 2rem;
+}
+
+.left {
+  background: white;
+  flex: 1;
+  text-align: left;
+}
+
+.left h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.email-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 999px;
+  font-size: 1rem;
+}
+
+.arrow {
+  margin-left: 0.5rem;
+}
+
+.right {
+  background-color: #3197a1;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bubble {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.footer-right .call-button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .left, .right {
+    flex: 1;
+    height: calc(100vh - 80px); /* adjust height for footer */
+  }
+
+  .footer {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 767px) {
+  .left h1 {
+    font-size: 2rem;
+  }
+
+  .bubble {
+    font-size: 0.9rem;
+  }
+}

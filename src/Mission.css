@@ -1,0 +1,29 @@
+.missioncontainer {
+  background-color: #2aa5b3;
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 3rem auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.missiontext {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.logos span {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+}
