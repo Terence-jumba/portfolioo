@@ -6,12 +6,15 @@ import smartitlogoo from './smartitlogoo.png';
 import aiulogo from './aiulogo.jpg';
 import codexlogo from './codexlogoo.png';
 import buupasslogo from './buupasslogoo.png';
+import lpgaslogo from './Lpgaslogo.svg';
 
 function Experience() {
 
     const [expanded, setExpanded] = useState(false);
 
     const toggleExpand = () => setExpanded(!expanded);
+
+    // add my lpgas
 
     const jobs = [
         {
@@ -201,6 +204,48 @@ function Experience() {
                 }
             ]
         },
+        {
+            company: 'my Lpgas',
+            title: 'Android Developer',
+            duration: 'Nov 2020 – Present',
+            logo: lpgaslogo,
+            location: "Nairobi County, Kenya · On-site",
+            description: [
+                {
+                    pointo: "Leveraging Kotlin for Android application development."
+                },
+                {
+                    pointo: "Utilizing Jetpack Compose for creating dynamic UIs."
+                },
+                {
+                    pointo: "Implementing state management with Jetpack Compose's State and ViewModel."
+                },
+                {
+                    pointo: "Designing and developing custom UI components using Jetpack Compose."
+                },
+                {
+                    pointo: "Writing UI tests to validate Jetpack Compose UI components."
+                },
+                {
+                    pointo: "Ensuring comprehensive test coverage for UI layer."
+                },
+                {
+                    pointo: "Optimizing performance of Jetpack Compose UIs."
+                },
+                {
+                    pointo: "Integrating Jetpack libraries for enhanced functionality."
+                },
+                {
+                    pointo: "Applying the MVVM architecture pattern for scalable and testable code."
+                },
+                {
+                    pointo: "Using Retrofit for networking and managing API integrations."
+                },
+                {
+                    pointo: "Implementing Paging to handle large data sets efficiently."
+                }
+            ]
+        }
     ];
 
     return (
