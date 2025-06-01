@@ -78,7 +78,7 @@
   color: #666;
 }
 experience-card.expanded {
-  height: 600px;
+  height: auto;
 }
 
 /* Optional fade effect on content overflow */

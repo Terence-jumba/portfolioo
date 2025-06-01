@@ -8,6 +8,8 @@ import facebook from './facebook.png';
 import squarespace from './squarespace.png';
 import './Home.css';
 import React from 'react';
+import profilepic from './profilepic.jpg';
+
 
 function Home() {
     const logos = [
@@ -57,13 +59,13 @@ function Home() {
                     <div className="profile-card">
                         <h3>Terencejumba</h3>
                         <p>Nairobi, Kenya</p>
-                        <img src={lipcare} alt="Work preview" className="work-img" />
+                        <img src={profilepic} alt="Work preview" className="work-img" />
                         <span className="tag">FRAMER EXPERT</span>
                         <button className="downloadcv-btn">Download cv</button>
                     </div>
 
                     <div className="profile-pic">
-                        <img src={lipcare} alt="Profile" />
+                        <img src={profilepic} alt="Profile" />
                     </div>
 
                     <div className="brandyy">
