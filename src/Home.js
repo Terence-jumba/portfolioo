@@ -9,6 +9,7 @@ import squarespace from './squarespace.png';
 import './Home.css';
 import React from 'react';
 import profilepic from './profilepic.jpg';
+import poo from './poo.jpg';
 
 
 function Home() {
@@ -65,7 +66,7 @@ function Home() {
                     </div>
 
                     <div className="profile-pic">
-                        <img src={profilepic} alt="Profile" />
+                        <img src={poo} alt="Profile" />
                     </div>
 
                     <div className="brandyy">
