@@ -9,7 +9,7 @@ function Socials() {
                 <div className="left">
                     <h1>Let’s <br />connect <br />and chat</h1>
                     <a href="mailto:hello@cozy.com" className="email-button">
-                        HELLO@COZY.COM <span className="arrow">↗</span>
+                        HELLO@TERENCE.COM <span className="arrow">↗</span>
                     </a>
                 </div>
 
