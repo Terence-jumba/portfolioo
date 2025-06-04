@@ -6,6 +6,7 @@ import Services from './Services';
 import Experience from './Experience';
 import ContactForm from './ContactForm';
 import Socials from './Socials';
+import SelectedWork from './SelectedWork';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Home />
      <Mission />
      <Services />
+     <SelectedWork />
      <Experience />
      <ContactForm />
      <Socials />
