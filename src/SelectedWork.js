@@ -26,7 +26,7 @@ function SelectedWork() {
             platform: "WEB DEV",
             year: "2023"
         },
-         {
+        {
             image: echotales,
             name: "ECHOTALES",
             type: "UI DESIGN",
@@ -45,14 +45,14 @@ function SelectedWork() {
             name: "KIFARU TEA",
             type: "UI DESIGN",
             platform: "WEB DEV",
-            year: "2023"
+            year: "2025"
         },
-         {
+        {
             image: emox,
             name: "EMOX",
             type: "UI DESIGN",
             platform: "WEB DEV",
-            year: "2023"
+            year: "2025"
         }
     ]
 
