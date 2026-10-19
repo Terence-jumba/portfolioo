@@ -8,6 +8,8 @@ import ContactForm from './ContactForm';
 import Socials from './Socials';
 import SelectedWork from './SelectedWork';
 
+//hosted the website on netlify and the link is https://terencequinton.netlify.app/
+
 function App() {
   return (
     <div className="App">
