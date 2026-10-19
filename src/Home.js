@@ -62,7 +62,13 @@ function Home() {
                         <p>Nairobi, Kenya</p>
                         <img src={profilepic} alt="Work preview" className="work-img" />
                         <span className="tag">FRAMER EXPERT</span>
-                        <button className="downloadcv-btn">Download cv</button>
+                        <a
+                            className="downloadcv-btn"
+                            href={`${process.env.PUBLIC_URL}/newresumeee%20%281%29.pdf`}
+                            download="Terence-Quinton-Jumba-CV.pdf"
+                        >
+                            Download CV
+                        </a>
                     </div>
 
                     <div className="profile-pic">
