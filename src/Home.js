@@ -54,7 +54,7 @@ function Home() {
                         multiple programming languages and proactively keeps up with industry trends. Driven to
                         wear many programming hats with expertise in creating everything from new applications
                         to new operating systems.</p>
-                    <button className="contact-btn">Contact Us</button>
+                    <a className="contact-btn" href="#contact">Contact Us</a>
                 </div>
 
                 <div className="right-column">

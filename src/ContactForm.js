@@ -53,7 +53,7 @@ function ContactForm() {
     };
 
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <h1>Contact with me to sizzle your project</h1>
             <p>
                 Feel free to contact me if having any questions. I'm available for new
