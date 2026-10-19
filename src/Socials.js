@@ -29,7 +29,7 @@ function Socials() {
                     <div className="logo">TJ</div>
                     <span>TerenceJumba</span>
                 </div>
-                <div className="footer-center">©2025</div>
+                <div className="footer-center">©2026</div>
                 <div className="footer-right">
                     <button className="call-button">Book a call</button>
                 </div>

@@ -11,9 +11,11 @@ import lpgaslogo from './Lpgaslogo.svg';
 
 function Experience() {
 
-    const [expanded, setExpanded] = useState(false);
+    const [expandedIndex, setExpandedIndex] = useState(null);
 
-    const toggleExpand = () => setExpanded(!expanded);
+    const toggleExpand = (index) => {
+        setExpandedIndex((currentIndex) => currentIndex === index ? null : index);
+    };
 
     // add my lpgas
 
@@ -258,7 +260,7 @@ function Experience() {
                 </div>
 
                 {jobs.map((job, index) => (
-                    <div className="experience-card" key={index}>
+                    <div className={`experience-card ${expandedIndex === index ? "expanded" : ""}`} key={index}>
                         <div className="experience-header">
                             <img src={job.logo} alt="Logo" className="company-logo" />
                             <div>
@@ -269,14 +271,14 @@ function Experience() {
                             </div>
                         </div>
 
-                        <ul className={`description-list ${expanded ? "expanded" : ""}`}>
+                        <ul className={`description-list ${expandedIndex === index ? "expanded" : ""}`}>
                             {job.description.map((desc, indeex) => (
                                 <li key={indeex}>{desc.pointo}</li>
                             ))}
                         </ul>
 
-                        <button className="see-more-btn" onClick={toggleExpand}>
-                            {expanded ? "See Less" : "See More"}
+                        <button className="see-more-btn" onClick={() => toggleExpand(index)}>
+                            {expandedIndex === index ? "See Less" : "See More"}
                         </button>
 
                         <div className="skills">
