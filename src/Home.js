@@ -36,6 +36,7 @@ function Home() {
             title: 'dropbox',
         },
         // Add more logos here
+        
     ];
     return (
         <section className="hero">

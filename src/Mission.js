@@ -6,8 +6,8 @@ function Mission() {
     return (
         <div className="missioncontainer">
             <p className="missiontext">
-                My mission is to assist startups and enterprises in <br />
-                creating an emotional bond between their products and <br />
+                My mission is to assist startups and enterprises in
+                creating an emotional bond between their products and
                 satisfied, engaged customers.
             </p>
             <div className="logos">

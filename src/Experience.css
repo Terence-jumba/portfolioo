@@ -6,7 +6,7 @@
 
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
 }
 
@@ -47,6 +47,7 @@
   height: 300px;
   transition: height 0.5s ease;
   position: relative;
+  min-width: 0;
 }
 
 .company-logo {
@@ -124,6 +125,7 @@
   margin: 2px 0;
   font-size: 0.95rem;
   color: #555;
+  overflow-wrap: anywhere;
 }
 
 .description-list {
