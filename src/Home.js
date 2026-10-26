@@ -10,6 +10,7 @@ import './Home.css';
 import React from 'react';
 import profilepic from './profilepic.jpg';
 import poo from './poo.jpg';
+import BookingCall from './BookingCall';
 
 
 function Home() {
@@ -42,7 +43,7 @@ function Home() {
         <section className="hero">
             <header className="hero-header">
                 <div className="logo">TERENCEJUMBA</div>
-                <button className="call-btn">Book a call</button>
+                <BookingCall className="call-btn" />
             </header>
 
             <div className="hero-body">

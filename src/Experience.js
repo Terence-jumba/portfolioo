@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Experience.css';
+import BookingCall from './BookingCall';
 import dropy from './dropy.png';
 import upworklogoo from './upworklogoo.png';
 import smartitlogoo from './smartitlogoo.png';
@@ -306,7 +307,7 @@ function Experience() {
             <div className="experience-grid">
                 <div className="experience-cta">
                     <h2>Wanna see<br />my experience?</h2>
-                    <button>Book a call</button>
+                    <BookingCall />
                 </div>
 
                 {jobs.map((job, index) => (

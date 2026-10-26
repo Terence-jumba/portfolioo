@@ -1,5 +1,6 @@
 import React from 'react';
 import './Socials.css';
+import BookingCall from './BookingCall';
 
 
 function Socials() {
@@ -35,7 +36,7 @@ function Socials() {
                 </div>
                 <div className="footer-center">©2026</div>
                 <div className="footer-right">
-                    <button className="call-button">Book a call</button>
+                    <BookingCall className="call-button" />
                 </div>
             </footer>
         </div>
