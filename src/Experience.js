@@ -328,8 +328,13 @@ function Experience() {
                             ))}
                         </ul>
 
-                        <button className="see-more-btn" onClick={() => toggleExpand(index)}>
-                            {expandedIndex === index ? "See Less" : "See More"}
+                        <button
+                            className="see-more-btn"
+                            aria-expanded={expandedIndex === index}
+                            onClick={() => toggleExpand(index)}
+                        >
+                            <span>{expandedIndex === index ? "See Less" : "See More"}</span>
+                            <span className="see-more-icon" aria-hidden="true">→</span>
                         </button>
 
                         <div className="skills">
