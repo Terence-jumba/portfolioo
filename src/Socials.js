@@ -16,10 +16,14 @@ function Socials() {
                 <div className="right">
                     <div className="bubble">FOLLOW ME!</div>
                     <div className="bubble">👀 🤩</div>
-                    <div className="bubble">INSTAGRAM</div>
+                    <a className="bubble" href="https://www.instagram.com/zeroday_coder/">
+                        INSTAGRAM
+                    </a>
                     <div className="bubble">DRIBBBLE</div>
                     <div className="bubble">BEHANCE</div>
-                    <div className="bubble">LINKEDIN</div>
+                    <a className="bubble" href="https://www.linkedin.com/in/terencejumba">
+                        LINKEDIN
+                    </a>
                 </div>
 
 

@@ -96,13 +96,21 @@ function Home() {
                     <div className="sociocont">
                         <div className="social-icons">
                             <i className="fab fa-figma"> <img src={figma} alt="figma" /></i>
-                            <i className="fab fa-tiktok"> <img src={tiktok} alt="tiktok" /> </i>
-                            <i className="fab fa-linkedin"> <img src={linkedin} alt="linkedin" /></i>
+                            <a href="https://www.tiktok.com/@mvkav3li?is_from_webapp=1&sender_device=pc">
+                                <i className="fab fa-tiktok"> <img src={tiktok} alt="tiktok" /> </i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/terencejumba">
+                                <i className="fab fa-linkedin"> <img src={linkedin} alt="linkedin" /></i>
+                            </a>
                         </div>
                         <div className="social-icons">
-                            <i className="fab fa-instagram"> <img src={instagram} alt="instagram" /></i>
+                            <a href="https://www.instagram.com/zeroday_coder/">
+                                <i className="fab fa-instagram"> <img src={instagram} alt="instagram" /></i>
+                            </a>
                             <i className="fab fa-behance"> <img src={facebook} alt="facebook" /></i>
-                            <i className="fab fa-x-twitter"> <img src={twitter} alt="twitter" /></i>
+                            <a href="https://x.com/_zeroday__">
+                                <i className="fab fa-x-twitter"> <img src={twitter} alt="twitter" /></i>
+                            </a>
                         </div>
 
                     </div>
