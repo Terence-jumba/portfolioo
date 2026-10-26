@@ -3,6 +3,8 @@ import './Experience.css';
 import dropy from './dropy.png';
 import upworklogoo from './upworklogoo.png';
 import smartitlogoo from './smartitlogoo.png';
+import waliinlogo from './waliinlogo.jpeg';
+import masjidlogo from './masjidlogo.webp';
 import aiulogo from './aiulogo.jpg';
 import codexlogo from './codexlogoo.png';
 import buupasslogo from './buupasslogoo.png';
@@ -20,21 +22,21 @@ function Experience() {
     // add my lpgas
 
     const jobs = [
-        {
-            company: 'Dropy Limited',
-            title: 'Android Developer',
-            duration: 'Jan 2022 – Present',
-            logo: dropy,
-            location: "Nairobi County, Kenya · On-site",
+         {
+            company: 'Waliin',
+            title: 'Senior Android Engineer',
+            duration: 'July 2025 — January 2026',
+            logo: waliinlogo,
+            location: "Rochester, New York, United States · Remote",
             description: [
                 {
-                    pointo: "Developed a high-performing native Android Sales app, replacing the previous web application and reducing bandwidth usage by 80% margin with the ability to work partially offline."
+                    pointo: "Lead engineer on the consumer Android app serving 2M+ users across Africa."
                 },
                 {
-                    pointo: "Designed and integrated Mobile B2B apps (iOS, Android) for sales executives and customers, providing convenience and ease of use for ordering."
+                    pointo: "Migrated the entire codebase from XML Views to Jetpack Compose, reducing UI development time by 40%."
                 },
                 {
-                    pointo: "Assisted with the integration of various financial institutions for seamless payment and automatic reconciliation, improving customer satisfaction and retention."
+                    pointo: "Architecting the Compose Multiplatform expansion targeting iOS and Web."
                 },
                 {
                     pointo: "Provided on-call support and training to non-technical employees on the system's usage, resulting in improved productivity and efficiency in the field."
@@ -44,13 +46,64 @@ function Experience() {
                 },
                 {
                     pointo: "Implemented Unit Tests to ensure app stability and minimize production bugs."
+                }
+            ]
+        },
+        {
+            company: 'Masjid Timetable',
+            title: 'Android Developer',
+            duration: 'March 2022 — May 2025',
+            logo: masjidlogo,
+            location: "London Area, United Kingdom · Remote",
+            description: [
+                {
+                    pointo: "Embedded in client teams (US-based SaaS startups) as an Android specialist."
                 },
+                {
+                    pointo: "Delivered three apps from MVP to store launch."
+                },
+                {
+                    pointo: "Introduced modular architecture patterns that cut build times by 55%."
+                },
+                {
+                    pointo: "onboarded junior engineers."
+                }
+            ]
+        },
+           {
+            company: 'Smart IT Ventures Pvt. Ltd.',
+            title: 'Android Developer',
+            duration: 'December 2022 — April 2025',
+            logo: smartitlogoo,
+            location: "Rupnagar, Punjab, India · On-site",
+            description: [
+                {
+                    pointo: "Studio Management Features: Integrated payment processing, booking systems, and availability calendars to streamline studio operations."
+                },
+                {
+                    pointo: "Google Maps API Integration: Implemented location detection and retrieval in Android applications."
+                },
+                {
+                    pointo: "Offline Data Sync: Added functionality to sync local data with a remote server when a network is available."
+                },
+                {
+                    pointo: "Front-End Development: Developed responsive UI using Kotlin and Java."
+                },
+                {
+                    pointo: "API Integration: Utilized Retrofit for seamless backend communication and data retrieval."
+                },
+                {
+                    pointo: "Real-Time Chat: Integrated Firebase Database for real-time chat functionality."
+                },
+                {
+                    pointo: "Architecture: Followed MVVM architecture for clean and maintainable code structure."
+                }
             ]
         },
         {
             company: 'BuuPass - Bus, Train & Flight bookings',
             title: 'Android Developer',
-            duration: 'Oct 2021 – Feb 2022',
+            duration: 'October 2021 — December 2024',
             logo: buupasslogo,
             location: "Nairobi County, Kenya · On-site",
             description: [
@@ -75,7 +128,7 @@ function Experience() {
         {
             company: 'Africa International University',
             title: 'Android Developer',
-            duration: 'Jan 2021 – Jan 2023',
+            duration: 'January 2021 — October 2024',
             logo: aiulogo,
             location: "Nairobi County, Kenya · On-site",
             description: [
@@ -112,39 +165,78 @@ function Experience() {
             ]
         },
         {
-            company: 'Smart IT Ventures Pvt. Ltd.',
+            company: 'Dropy Limited',
             title: 'Android Developer',
-            duration: 'Dec 2022 – Apr 2023',
-            logo: smartitlogoo,
-            location: "Rupnagar, Punjab, India · On-site",
+            duration: 'January 2022 — August 2024',
+            logo: dropy,
+            location: "Nairobi County, Kenya · On-site",
             description: [
                 {
-                    pointo: "Studio Management Features: Integrated payment processing, booking systems, and availability calendars to streamline studio operations."
+                    pointo: "Developed a high-performing native Android Sales app, replacing the previous web application and reducing bandwidth usage by 80% margin with the ability to work partially offline."
                 },
                 {
-                    pointo: "Google Maps API Integration: Implemented location detection and retrieval in Android applications."
+                    pointo: "Designed and integrated Mobile B2B apps (iOS, Android) for sales executives and customers, providing convenience and ease of use for ordering."
                 },
                 {
-                    pointo: "Offline Data Sync: Added functionality to sync local data with a remote server when a network is available."
+                    pointo: "Assisted with the integration of various financial institutions for seamless payment and automatic reconciliation, improving customer satisfaction and retention."
                 },
                 {
-                    pointo: "Front-End Development: Developed responsive UI using Kotlin and Java."
+                    pointo: "Provided on-call support and training to non-technical employees on the system's usage, resulting in improved productivity and efficiency in the field."
                 },
                 {
-                    pointo: "API Integration: Utilized Retrofit for seamless backend communication and data retrieval."
+                    pointo: "Continuously incorporated user feedback to improve app experience and fix bugs, resulting in higher customer satisfaction."
                 },
                 {
-                    pointo: "Real-Time Chat: Integrated Firebase Database for real-time chat functionality."
+                    pointo: "Implemented Unit Tests to ensure app stability and minimize production bugs."
+                },
+            ]
+        },
+          {
+            company: 'my Lpgas',
+            title: 'Android Developer',
+            duration: 'November 2020 — May 2022',
+            logo: lpgaslogo,
+            location: "Nairobi County, Kenya · On-site",
+            description: [
+                {
+                    pointo: "Leveraging Kotlin for Android application development."
                 },
                 {
-                    pointo: "Architecture: Followed MVVM architecture for clean and maintainable code structure."
+                    pointo: "Utilizing Jetpack Compose for creating dynamic UIs."
+                },
+                {
+                    pointo: "Implementing state management with Jetpack Compose's State and ViewModel."
+                },
+                {
+                    pointo: "Designing and developing custom UI components using Jetpack Compose."
+                },
+                {
+                    pointo: "Writing UI tests to validate Jetpack Compose UI components."
+                },
+                {
+                    pointo: "Ensuring comprehensive test coverage for UI layer."
+                },
+                {
+                    pointo: "Optimizing performance of Jetpack Compose UIs."
+                },
+                {
+                    pointo: "Integrating Jetpack libraries for enhanced functionality."
+                },
+                {
+                    pointo: "Applying the MVVM architecture pattern for scalable and testable code."
+                },
+                {
+                    pointo: "Using Retrofit for networking and managing API integrations."
+                },
+                {
+                    pointo: "Implementing Paging to handle large data sets efficiently."
                 }
             ]
         },
         {
             company: 'Upwork',
             title: 'Android Developer',
-            duration: 'Jul 2019 – Mar 2024',
+            duration: 'Jul 2019 – Present',
             logo: upworklogoo,
             location: "Nairobi County, Kenya · On-site",
             description: [
@@ -206,50 +298,8 @@ function Experience() {
                     pointo: "Networking & cloud services"
                 }
             ]
-        },
-        {
-            company: 'my Lpgas',
-            title: 'Android Developer',
-            duration: 'Nov 2020 – Present',
-            logo: lpgaslogo,
-            location: "Nairobi County, Kenya · On-site",
-            description: [
-                {
-                    pointo: "Leveraging Kotlin for Android application development."
-                },
-                {
-                    pointo: "Utilizing Jetpack Compose for creating dynamic UIs."
-                },
-                {
-                    pointo: "Implementing state management with Jetpack Compose's State and ViewModel."
-                },
-                {
-                    pointo: "Designing and developing custom UI components using Jetpack Compose."
-                },
-                {
-                    pointo: "Writing UI tests to validate Jetpack Compose UI components."
-                },
-                {
-                    pointo: "Ensuring comprehensive test coverage for UI layer."
-                },
-                {
-                    pointo: "Optimizing performance of Jetpack Compose UIs."
-                },
-                {
-                    pointo: "Integrating Jetpack libraries for enhanced functionality."
-                },
-                {
-                    pointo: "Applying the MVVM architecture pattern for scalable and testable code."
-                },
-                {
-                    pointo: "Using Retrofit for networking and managing API integrations."
-                },
-                {
-                    pointo: "Implementing Paging to handle large data sets efficiently."
-                }
-            ]
         }
-    ];
+    ]
 
     return (
         <section className="experience-section">
